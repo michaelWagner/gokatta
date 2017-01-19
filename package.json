@@ -20,7 +20,7 @@
     "webpack": "^1.12.2"
   },
   "scripts": {
-    "watch": "cp views/index.html public/index.html && NODE_ENV=development webpack && webpack-dev-server --content-base public/ --hot --inline --devtool inline-source-map --history-api-fallback"
+    "development": "cp views/index.html public/index.html && NODE_ENV=development webpack && webpack-dev-server --content-base public/ --hot --inline --devtool inline-source-map --history-api-fallback"
   },
   "author": "",
   "license": "ISC",
