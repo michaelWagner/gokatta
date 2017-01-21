@@ -6,7 +6,7 @@ import createBrowserHistory from 'history/lib/createBrowserHistory'
 const history = createBrowserHistory()
 
 // Routes
-import routes from './routes'
+import routes from './js/routes.js'
 
 const Routes = (
   <Router history={history}>
