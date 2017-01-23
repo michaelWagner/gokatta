@@ -31,6 +31,7 @@ class Home extends Component {
     return (
       <div>
         <h2>Home</h2>
+        <img src="/img/home-bg.jpg" alt="" />
         <div>Some home page content</div>
       </div>
     )
